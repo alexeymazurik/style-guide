@@ -283,3 +283,29 @@ body {
   }
 
 }
+
+
+.badge {
+
+  display: inline-block;
+  padding: 3px 10px;
+  color: #a3a3a3;
+  border-radius: 4px;
+  font-size: 0.8em;
+
+  &.badge-success {
+    color: #9bc44b;
+    border: 1px solid #9bc44b;
+  }
+
+  &.badge-info {
+    color: #ebc651;
+    border: 1px solid #ebc651;
+  }
+
+  &.badge-danger {
+    color: #f36363;
+    border: 1px solid #f36363;
+  }
+
+}

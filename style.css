@@ -143,4 +143,20 @@ body {
   background-color: #9bc44b;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6); }
 
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  color: #a3a3a3;
+  border-radius: 4px;
+  font-size: 0.8em; }
+  .badge.badge-success {
+    color: #9bc44b;
+    border: 1px solid #9bc44b; }
+  .badge.badge-info {
+    color: #ebc651;
+    border: 1px solid #ebc651; }
+  .badge.badge-danger {
+    color: #f36363;
+    border: 1px solid #f36363; }
+
 /*# sourceMappingURL=style.css.map */
