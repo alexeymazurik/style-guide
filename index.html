@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Red flag UI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<section id="buttons">
+    <h2>Buttons</h2>
+    <hr/>
+
+    <h3>Default</h3>
+
+    <form id="buttons-form">
+        <button class="button">Report lost</button>
+        <button class="button button-info">Move</button>
+        <button class="button button-default">Receive</button>
+    </form>
+
+    <h3>Button radio groups</h3>
+        <div class="radio-button-group">
+            <input type="radio" id="in-stock" name="seals" value="in-stock" checked>
+            <label for="in-stock">In stock</label>
+
+            <input type="radio" id="in-transit" name="seals" value="in-transit">
+            <label for="in-transit">In transit</label>
+
+            <input type="radio" id="lost" name="seals" value="lost">
+            <label for="lost">Lost</label>
+        </div>
+    <hr/>
+</section>
+<section id="inputs">
+    <h2>Inputs</h2>
+    <hr/>
+
+    <h3>Default</h3>
+    <form>
+        <input type="text" class="form-input" placeholder="Stylish it">
+    </form>
+
+    <h3>Group inputs</h3>
+    <form id="inputs-form">
+        <div class="input-group">
+            <input type="text" class="form-input" placeholder="Select location">
+            <input type="text" class="form-input" placeholder="ID number">
+            <button type="submit" class="button button-default">Search</button>
+        </div>
+    </form>
+    <hr/>
+</section>
+<section id="panels">
+
+    <h2>Panels</h2>
+
+    <div class="panel panel-skid">
+        <div class="panel-head">
+            <span><span class="title">Skid 3453</span> / 2 boxes / 1 bag</span>
+        </div>
+        <div class="panel-body">
+            <ul>
+                <li>Milwaukee Refrigerated</li>
+                <li>Rademade Studio</li>
+                <li>Work order: 1270</li>
+            </ul>
+            <div class="panel panel-box">
+                <div class="panel-head">
+                    <span><span class="title">Box 1206</span> / 2 bags</span>
+                    <button class="button">Report lost</button>
+                    <button class="button button-info">Move</button>
+                    <button class="button button-default">Receive</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="badges">
+
+</section>
+</body>
+</html>
